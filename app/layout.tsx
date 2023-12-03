@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import RecoilWrapper from './Components/RecoilWrapper/RecoilWrapper'
+import Header from './Components/Header/HeaderMain/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,9 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+       
+       <RecoilWrapper>
+          <Header/>
+          {children}
+          
+        </RecoilWrapper>
         
-        
-        {children}
         
         
         
