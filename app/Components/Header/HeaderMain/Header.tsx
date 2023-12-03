@@ -4,21 +4,26 @@ import { FaFacebookF, FaInstagram, FaPinterestP, FaTwitter } from 'react-icons/f
 import { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
 import styles from './Header.module.css'
-import { opentBurgerState } from '../../../States/States';
+import { CartState, opentBurgerState } from '../../../States/States';
 import Navigation from '../Navigation/Navigation';
 import HeaderCover from '../../HeaderCover/HeaderCover';
+import Cart from '../../Cart/Cart';
 
 export default () => {
-
 
     const  [openBurgerMenu,  setOpenBurgerMenu ] = useRecoilState (opentBurgerState)
     const onClick = () => {
        setOpenBurgerMenu (!openBurgerMenu)
-    }
+    } 
+    //cart section State
+    const  [CartMenu ] = useRecoilState (CartState);
+    
 
     return (
-     <> 
-
+     <>  
+        { CartMenu &&
+            <Cart/>
+        }
         <header className={styles.header}>
           <div className= {styles.contaiiner}>
              <div className= {styles.top}>
@@ -47,7 +52,6 @@ export default () => {
            </div>
            
            <Navigation/>
-            
         </header>
 
         <HeaderCover/>

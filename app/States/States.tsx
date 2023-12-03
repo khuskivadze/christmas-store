@@ -9,3 +9,18 @@ export const opentBurgerState = atom( {
 })
 
 
+//open cart section
+
+export const CartState = atom({
+    key:'CartMenu',
+    default: false || false,
+})
+
+
+//close cart section
+// export const closeCartState = atom({
+//     key:'closeCartMenu',
+//     default:false,
+// })
+
+
