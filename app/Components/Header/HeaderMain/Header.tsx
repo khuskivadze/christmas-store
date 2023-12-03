@@ -54,7 +54,7 @@ export default () => {
            <Navigation/>
         </header>
 
-        <HeaderCover/>
+         
      
      </>
       

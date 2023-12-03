@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+.shopSection {
+     max-width: 2000px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.container {
+     width: 90%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.link {
+     width: 100%;
+     height: 60px;
+}
+.linkContent {
+     width: 20%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+}
+.linkContent p {
+     font-size: 15px;
+     color: rgb(47,47,48);
+}
+.linkContent a {
+     font-size: 15px;
+     color: rgb(47,47,48);
+}
+
+
+.cover {
+     width: 100%;
+     height: 411px;
+     background-image: url(/images/cover.webp);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+.title {
+     width: 100%;
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.title h1 {
+    font-family: 'GFS Didot', serif;
+    color: rgb(47,47,48); 
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 2px;
+
+}
+
+.cardContainer {
+     width: 100%;
+     height: 2500px;
+     
+     display: grid;
+     justify-content: center;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     row-gap: 20px;
+}
