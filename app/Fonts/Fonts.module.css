@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+.mainTitle {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.bodyTitle {
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+.title{
+    font-family: 'GFS Didot', serif;
+     
+}
