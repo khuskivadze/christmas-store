@@ -1,0 +1,221 @@
+.contactContainer {
+    width: 100%;
+     height: 881px;
+     background-image: url(/images/84770f_bc1d493819db4d27891a877ce0063d2a~mv2_d_1920_1280_s_2.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+    
+    
+ 
+ }
+ .title{
+     width: 980px;
+     height: 50px;
+     color: rgb(247,63,35);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     letter-spacing: 0.1em;
+     margin-top: 10%;
+ 
+ 
+ }
+ 
+ .title span {
+     line-height: normal;
+     text-align: center;
+     font-size: 18px;
+ }
+ .forms {
+     width: 702px;
+     height: 360px;
+     
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+   
+  
+     align-items: center;
+ }
+ .forms .top {
+     width: 100%;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  
+     gap: 15px;
+ 
+ }
+ .forms .top  input {
+     width: 332px;
+     height: 35px;
+     background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(128, 128, 128, 0.499);
+    cursor: pointer;
+    border-radius: 5px;
+ }
+ .forms .top  input::placeholder {
+     padding-left: 10px;
+     letter-spacing: 1px;
+     color: rgb(247,63,35);
+ 
+ }
+ .forms .top  input:hover{
+     border: 2px solid rgb(0, 0, 0);
+     background-color: rgba(128, 128, 128, 0.277);
+ }
+ 
+ .forms .top  input:active{
+     border: 4px solid rgb(0, 0, 0);
+ }
+ 
+ .forms .center {
+     width: 678px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items:center ;
+ }
+ .forms .center  input {
+     width: 100%;
+     height: 35px;
+     background-color: rgb(255, 255, 255);
+     border: 1px solid rgba(128, 128, 128, 0.499);
+     cursor: pointer;
+     border-radius: 5px;
+ 
+ }
+ .forms .center  input::placeholder {
+     padding-left: 10px;
+     letter-spacing: 1px;
+     color: rgb(247,63,35);
+ }
+ 
+ .forms .center  input:hover{
+     border: 2px solid rgb(0, 0, 0);
+     background-color: rgba(128, 128, 128, 0.277);
+ 
+ }
+ 
+ .forms .center  input:active{
+     border: 4px solid  rgb(0, 0, 0);;
+ }
+ 
+ .forms textarea {
+     width: 678px;
+     height: 150px;
+     background-color: white;
+     border: 1px solid rgba(128, 128, 128, 0.499);
+ 
+     border-radius: 5px;
+ 
+ }
+ .forms   textarea:hover{
+     border: 2px solid rgb(0, 0, 0);
+     background-color: rgba(128, 128, 128, 0.277);
+ 
+ }
+ .forms textarea::placeholder {
+     padding-left: 15px;
+     padding-top: 5px;
+     letter-spacing: 1px;
+     color: rgb(247,63,35);
+ }
+ .forms textarea:active{
+     border: 4px solid  rgb(0, 0, 0);;
+ }
+ 
+ .submit {
+     width: 203px;
+     height: 40px;
+     background-color: rgb(247,63,35);
+     color: white;
+     border: none;
+     border-radius: 50px;
+     font-size: 16px;
+     letter-spacing: 2px;
+     margin-top: 5%;
+     cursor: pointer;
+     transition: all 0.5s ease;
+ }
+ .submit:hover {
+     background-color: rgb(241,240,236);
+     color: rgb(247,63,35);
+ }
+ 
+ .text {
+     width: 678px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 10%;
+     line-height: 2;
+ }
+ .text h1 {
+     font-size: 30px;
+     font-weight: 100;
+     letter-spacing: 2px;
+     color: rgb(247,63,35);
+ 
+ 
+ }
+ .text .line{
+     width: 50%;
+     height: 1px;
+     border-bottom: 1px solid rgb(247,63,35);
+ }
+ 
+ 
+ @media screen and (max-width:576px) {
+     .contactContainer {
+         width: 100% !important;
+         height: 700px !important;
+           
+         
+     }
+     .title {
+         width: 70% !important;
+     }
+     .forms   {
+         width: 100% !important;
+         margin-top: 10%;
+     }
+     .forms .top {
+         width: 100% !important;
+         height: 100px !important;
+         display: flex;
+         flex-direction: column;
+     }
+     .forms .center  {
+         width: 100% !important;
+         height: 70px !important;
+ 
+     }
+     .forms .center  input {
+         width: 60% !important;
+     }
+     .forms textarea  {
+         width: 60% !important;
+     }
+ 
+     .text  {
+         width: 100% !important;
+     }
+ 
+ 
+ 
+ }
+ 
+ @media screen and (max-width:1500px) {
+     .contactContainer {
+         width: 1455px;
+     }
+ }

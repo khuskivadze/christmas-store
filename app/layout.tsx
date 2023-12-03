@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import RecoilWrapper from './Components/RecoilWrapper/RecoilWrapper'
 import Header from './Components/Header/HeaderMain/Header'
+import Footer from './Components/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
        <RecoilWrapper>
           <Header/>
           {children}
+          <Footer/>
           
         </RecoilWrapper>
         
