@@ -6,6 +6,7 @@ import { useRecoilState } from 'recoil';
 import styles from './Header.module.css'
 import { opentBurgerState } from '../../../States/States';
 import Navigation from '../Navigation/Navigation';
+import HeaderCover from '../../HeaderCover/HeaderCover';
 
 export default () => {
 
@@ -48,6 +49,9 @@ export default () => {
            <Navigation/>
             
         </header>
+
+        <HeaderCover/>
+     
      </>
       
 

@@ -1,0 +1,145 @@
+.container {
+    max-width: 2000px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+ }
+.BackImage {
+    background-image: url(/images/84770f_99fd76090dbf4e30aa83ec60453ad425~mv2.webp);
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     
+
+}
+.info {
+    width: 50%;
+    height: 50vh;
+   
+    position: absolute;
+}
+.icone {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icone img {
+    width: 102px;
+    height: 102px;
+    object-fit: contain;
+    object-position: center center;
+}
+.icone  p {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+    margin-top: 2%;
+}
+.title  h1 {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 72px;
+    font-family: 'GFS Didot', serif;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+.title span {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 4px;
+
+}
+.title a {
+    padding: 10px 40px;
+     background-color: rgb(247,63,35);
+     color: white;
+     letter-spacing: 3px;
+     border-radius: 50px;
+     margin-top: 5%;
+     cursor: pointer;
+     transition: all 0.5s ease;
+    
+
+}
+.title a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(247,63,35);
+}
+
+
+@media screen  and (max-width: 576px) {
+    .container  {
+        width: 100% !important;
+        height: 800px !important;
+    }
+    
+    .BackImage {
+        width: 100% !important;
+    }
+    .info {
+        width: 100%;
+        height: 100%;
+    }
+    .icone {
+        width: 100%;
+        margin-top: 70%;
+
+    }
+
+    .title  h1 {
+        font-size: 40px;
+    }
+    .title span  {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .title a {
+        margin-top: 10%;
+    }
+
+    
+    
+}
+
+@media screen  and (max-width: 1500px) {
+    .container  {
+        height: 120vh !important;
+       
+    }
+     
+    .BackImage{
+        height: 120vh !important;
+       
+
+    }
+    .info {
+        margin-top: 4% ;
+    }
+    
+}
+
+
+
+
+
