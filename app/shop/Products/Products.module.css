@@ -3,43 +3,61 @@
 .card {
     width: 315px;
     height: 460px;
-    
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 
-}
+} 
 .image {
     width: 100%;
-    height: 315px;
-    background-image: url(/images/84770f_3d61665c560442849e3ac2f6f7675427~mv2_d_1500_1500_s_2.webp);
-    overflow: hidden;
-    transition: all 0.5s ease;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 325px;
+    display: flex;
+    position: relative;
     transform: scale(0.9);
-    cursor: pointer;
-}
+    transition: all 0.5s ease-in-out;
 
+    
+}
 .card:hover .image {
     transform: scale(1);
 }
+.image img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
 .bottomText {
     position: absolute;
-    width: 100%;
+    width: 315px;
     height: 50px;
-    background-color:rgba(255, 255, 255, 0.606);
-    bottom: -16%;
+    background-color: rgba(255, 255, 255, 0.546);
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    transition: all 0.5s ease-in-out;
+    align-items: center;
+    bottom: -15%;
+     opacity: 0;
+    transition:  0.3s ease;
 
+     
+     
 }
-.card:hover .bottomText {
+.card:hover  .bottomText{
+   opacity: 1;
     bottom: 0;
+    transition:  0.3s ease;
 }
+
+
+ 
+ 
+
+
+
+
 
 .info {
     width: 100%;
