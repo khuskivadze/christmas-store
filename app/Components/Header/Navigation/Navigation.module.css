@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+.mainTitle {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+.bodyTitle {
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+.title{
+    font-family: 'GFS Didot', serif;
+}
+.activeColor {
+    color:rgb(247,63,35) ;
+}
+.headerNavigation {
+    width: 100% ;
+    height: 120px  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navContainer {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.522)
+    
+}
+.social {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(47,47,48);
+    gap: 20px;
+}
+.nav {
+    width: 900px  ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li {
+    padding: 10px 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(69, 69, 255);
+}
+.nav li:hover {
+    color:rgb(247,63,35) ;
+
+}
+.input {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input a {
+    color: rgb(47,47,48);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+.input span {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(47,47,48);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.input a:hover {
+    color:rgb(247,63,35) ;
+}
+
+@media screen and (max-width: 576px) {
+
+    .navContainer  {
+         width: 100%;
+         height: 100vh;
+         position: fixed;
+         background-color: rgb(247,63,35);
+         
+         display: inline;
+         z-index: 1000;
+         justify-content: center;
+         align-items: center;
+         top: 13%;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         transition: all 0.5s ease
+
+    }
+
+    .headerNavigation .social {
+        display: none;
+    }
+    .headerNavigation .input {
+        display: none;
+    }
+    .nav {
+        width: 100%;
+        height: 50%;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-bottom: 60%;
+        
+    }
+    .nav  li {
+        color: white;
+    }
+    
+}
+
+ 
+ 

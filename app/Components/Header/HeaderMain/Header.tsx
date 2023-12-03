@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
 import styles from './Header.module.css'
 import { opentBurgerState } from '../../../States/States';
+import Navigation from '../Navigation/Navigation';
 
 export default () => {
 
@@ -15,8 +16,9 @@ export default () => {
     }
 
     return (
+     <> 
 
-      <header className={styles.header}>
+        <header className={styles.header}>
           <div className= {styles.contaiiner}>
              <div className= {styles.top}>
                  <div className= {styles.headerTitle}>
@@ -42,8 +44,12 @@ export default () => {
                  </div>
              </div>
            </div>
+           
+           <Navigation/>
             
-      </header>
+        </header>
+     </>
+      
 
     )
 }
