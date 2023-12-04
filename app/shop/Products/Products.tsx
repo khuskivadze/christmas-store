@@ -15,6 +15,13 @@ import styles from './Products.module.css'
 
 
 export default (props: Props) => {
+    const addCard = () => {
+        console.log('click is done')
+    }
+
+
+
+
     return (
         <div className= {styles.card}>
             <div className= {styles.image}>
