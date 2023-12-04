@@ -23,4 +23,17 @@ export const CartState = atom({
 //     default:false,
 // })
 
+//add card in cart
+
+export const AddCardState = atom ({
+    key: 'addCard',
+    default: false,
+})
+
+
+export const deleteCardState = atom ({
+    key:'deleteCard',
+    default: false ,
+})
+
 
